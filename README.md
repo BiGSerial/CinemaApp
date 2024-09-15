@@ -6,7 +6,7 @@ Este projeto foi desenvolvido como parte da disciplina de **Linguagem de Program
 
 A estrutura de diretórios do projeto é a seguinte:
 
-
+```
 TRABALHO C1 LPOO
 │
 ├── bin
@@ -21,6 +21,7 @@ TRABALHO C1 LPOO
 │   ├── Utils.java
 │
 └── README.md
+```
 
 
 ### 🔧 Diretório `src` (Códigos Fonte)
