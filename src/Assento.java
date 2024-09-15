@@ -31,7 +31,7 @@ public class Assento {
 
         builder.append("   ");
         for (int j = 0; j < colunas; j++) {
-            builder.append(String.format("%4d ", j + 1));
+            builder.append(String.format("%3d ", j + 1));
         }
         builder.append("\n");
 

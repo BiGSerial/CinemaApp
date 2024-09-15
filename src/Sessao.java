@@ -60,11 +60,11 @@ public class Sessao {
         System.out.println("***************************************************************");
 
         System.out.println("*                                                             *");
-        System.out.println("*" + Utils.centralizarTexto(this.nomeFilme, largura) + "*");
-        System.out.println("*" + Utils.centralizarTexto(this.horario, largura) + "*");
+        System.out.println("*" + Utils.centralizarTexto(this.nomeFilme, largura) + " *");
+        System.out.println("*" + Utils.centralizarTexto(this.horario, largura) + " *");
         System.out.println("*"
                 + Utils.centralizarTexto("R$ " + (new DecimalFormat("#,##0.00")).format(this.precoFilme) + "", largura)
-                + "*");
+                + " *");
         System.out.println("*                                                             *");
         System.out.println("***************************************************************");
     }
